@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ED19A65197BA50700501649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED19A64197BA50700501649 /* Foundation.framework */; };
+		8ED19A67197BA50700501649 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED19A66197BA50700501649 /* CoreGraphics.framework */; };
+		8ED19A69197BA50700501649 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED19A68197BA50700501649 /* UIKit.framework */; };
+		8ED19A6F197BA50700501649 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ED19A6D197BA50700501649 /* InfoPlist.strings */; };
+		8ED19A71197BA50700501649 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19A70197BA50700501649 /* main.m */; };
+		8ED19A75197BA50700501649 /* ITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19A74197BA50700501649 /* ITAppDelegate.m */; };
+		8ED19A7E197BA50700501649 /* ITViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19A7D197BA50700501649 /* ITViewController.m */; };
+		8ED19A80197BA50700501649 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED19A7F197BA50700501649 /* Images.xcassets */; };
+		8ED19A87197BA50800501649 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED19A86197BA50800501649 /* XCTest.framework */; };
+		8ED19A88197BA50800501649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED19A64197BA50700501649 /* Foundation.framework */; };
+		8ED19A89197BA50800501649 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED19A68197BA50700501649 /* UIKit.framework */; };
+		8ED19A91197BA50800501649 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ED19A8F197BA50800501649 /* InfoPlist.strings */; };
+		8ED19A93197BA50800501649 /* ITWordPuzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19A92197BA50800501649 /* ITWordPuzzleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ED19A8A197BA50800501649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED19A59197BA50700501649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED19A60197BA50700501649;
+			remoteInfo = ITWordPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8ED19A61197BA50700501649 /* ITWordPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITWordPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED19A64197BA50700501649 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8ED19A66197BA50700501649 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8ED19A68197BA50700501649 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8ED19A6C197BA50700501649 /* ITWordPuzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITWordPuzzle-Info.plist"; sourceTree = "<group>"; };
+		8ED19A6E197BA50700501649 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ED19A70197BA50700501649 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ED19A72197BA50700501649 /* ITWordPuzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ITWordPuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		8ED19A73197BA50700501649 /* ITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITAppDelegate.h; sourceTree = "<group>"; };
+		8ED19A74197BA50700501649 /* ITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITAppDelegate.m; sourceTree = "<group>"; };
+		8ED19A7C197BA50700501649 /* ITViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITViewController.h; sourceTree = "<group>"; };
+		8ED19A7D197BA50700501649 /* ITViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITViewController.m; sourceTree = "<group>"; };
+		8ED19A7F197BA50700501649 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8ED19A85197BA50800501649 /* ITWordPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITWordPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED19A86197BA50800501649 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8ED19A8E197BA50800501649 /* ITWordPuzzleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITWordPuzzleTests-Info.plist"; sourceTree = "<group>"; };
+		8ED19A90197BA50800501649 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ED19A92197BA50800501649 /* ITWordPuzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWordPuzzleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED19A5E197BA50700501649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED19A67197BA50700501649 /* CoreGraphics.framework in Frameworks */,
+				8ED19A69197BA50700501649 /* UIKit.framework in Frameworks */,
+				8ED19A65197BA50700501649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED19A82197BA50800501649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED19A87197BA50800501649 /* XCTest.framework in Frameworks */,
+				8ED19A89197BA50800501649 /* UIKit.framework in Frameworks */,
+				8ED19A88197BA50800501649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED19A58197BA50700501649 = {
+			isa = PBXGroup;
+			children = (
+				8ED19A6A197BA50700501649 /* ITWordPuzzle */,
+				8ED19A8C197BA50800501649 /* ITWordPuzzleTests */,
+				8ED19A63197BA50700501649 /* Frameworks */,
+				8ED19A62197BA50700501649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED19A62197BA50700501649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED19A61197BA50700501649 /* ITWordPuzzle.app */,
+				8ED19A85197BA50800501649 /* ITWordPuzzleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED19A63197BA50700501649 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ED19A64197BA50700501649 /* Foundation.framework */,
+				8ED19A66197BA50700501649 /* CoreGraphics.framework */,
+				8ED19A68197BA50700501649 /* UIKit.framework */,
+				8ED19A86197BA50800501649 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ED19A6A197BA50700501649 /* ITWordPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				8ED19A73197BA50700501649 /* ITAppDelegate.h */,
+				8ED19A74197BA50700501649 /* ITAppDelegate.m */,
+				8ED19A7C197BA50700501649 /* ITViewController.h */,
+				8ED19A7D197BA50700501649 /* ITViewController.m */,
+				8ED19A7F197BA50700501649 /* Images.xcassets */,
+				8ED19A6B197BA50700501649 /* Supporting Files */,
+			);
+			path = ITWordPuzzle;
+			sourceTree = "<group>";
+		};
+		8ED19A6B197BA50700501649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED19A6C197BA50700501649 /* ITWordPuzzle-Info.plist */,
+				8ED19A6D197BA50700501649 /* InfoPlist.strings */,
+				8ED19A70197BA50700501649 /* main.m */,
+				8ED19A72197BA50700501649 /* ITWordPuzzle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ED19A8C197BA50800501649 /* ITWordPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED19A92197BA50800501649 /* ITWordPuzzleTests.m */,
+				8ED19A8D197BA50800501649 /* Supporting Files */,
+			);
+			path = ITWordPuzzleTests;
+			sourceTree = "<group>";
+		};
+		8ED19A8D197BA50800501649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED19A8E197BA50800501649 /* ITWordPuzzleTests-Info.plist */,
+				8ED19A8F197BA50800501649 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED19A60197BA50700501649 /* ITWordPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED19A96197BA50800501649 /* Build configuration list for PBXNativeTarget "ITWordPuzzle" */;
+			buildPhases = (
+				8ED19A5D197BA50700501649 /* Sources */,
+				8ED19A5E197BA50700501649 /* Frameworks */,
+				8ED19A5F197BA50700501649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITWordPuzzle;
+			productName = ITWordPuzzle;
+			productReference = 8ED19A61197BA50700501649 /* ITWordPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ED19A84197BA50800501649 /* ITWordPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED19A99197BA50800501649 /* Build configuration list for PBXNativeTarget "ITWordPuzzleTests" */;
+			buildPhases = (
+				8ED19A81197BA50800501649 /* Sources */,
+				8ED19A82197BA50800501649 /* Frameworks */,
+				8ED19A83197BA50800501649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED19A8B197BA50800501649 /* PBXTargetDependency */,
+			);
+			name = ITWordPuzzleTests;
+			productName = ITWordPuzzleTests;
+			productReference = 8ED19A85197BA50800501649 /* ITWordPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED19A59197BA50700501649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Szep";
+				TargetAttributes = {
+					8ED19A84197BA50800501649 = {
+						TestTargetID = 8ED19A60197BA50700501649;
+					};
+				};
+			};
+			buildConfigurationList = 8ED19A5C197BA50700501649 /* Build configuration list for PBXProject "ITWordPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED19A58197BA50700501649;
+			productRefGroup = 8ED19A62197BA50700501649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED19A60197BA50700501649 /* ITWordPuzzle */,
+				8ED19A84197BA50800501649 /* ITWordPuzzleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED19A5F197BA50700501649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED19A80197BA50700501649 /* Images.xcassets in Resources */,
+				8ED19A6F197BA50700501649 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED19A83197BA50800501649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED19A91197BA50800501649 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED19A5D197BA50700501649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED19A71197BA50700501649 /* main.m in Sources */,
+				8ED19A75197BA50700501649 /* ITAppDelegate.m in Sources */,
+				8ED19A7E197BA50700501649 /* ITViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED19A81197BA50800501649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED19A93197BA50800501649 /* ITWordPuzzleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ED19A8B197BA50800501649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED19A60197BA50700501649 /* ITWordPuzzle */;
+			targetProxy = 8ED19A8A197BA50800501649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ED19A6D197BA50700501649 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED19A6E197BA50700501649 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8ED19A8F197BA50800501649 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED19A90197BA50800501649 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED19A94197BA50800501649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ED19A95197BA50800501649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED19A97197BA50800501649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ITWordPuzzle/ITWordPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "ITWordPuzzle/ITWordPuzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8ED19A98197BA50800501649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ITWordPuzzle/ITWordPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "ITWordPuzzle/ITWordPuzzle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8ED19A9A197BA50800501649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ITWordPuzzle.app/ITWordPuzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ITWordPuzzle/ITWordPuzzle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ITWordPuzzleTests/ITWordPuzzleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8ED19A9B197BA50800501649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ITWordPuzzle.app/ITWordPuzzle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ITWordPuzzle/ITWordPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "ITWordPuzzleTests/ITWordPuzzleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED19A5C197BA50700501649 /* Build configuration list for PBXProject "ITWordPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED19A94197BA50800501649 /* Debug */,
+				8ED19A95197BA50800501649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED19A96197BA50800501649 /* Build configuration list for PBXNativeTarget "ITWordPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED19A97197BA50800501649 /* Debug */,
+				8ED19A98197BA50800501649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8ED19A99197BA50800501649 /* Build configuration list for PBXNativeTarget "ITWordPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED19A9A197BA50800501649 /* Debug */,
+				8ED19A9B197BA50800501649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ED19A59197BA50700501649 /* Project object */;
+}
