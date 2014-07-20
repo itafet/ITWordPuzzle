@@ -19,7 +19,8 @@
 		8ED19A88197BA50800501649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED19A64197BA50700501649 /* Foundation.framework */; };
 		8ED19A89197BA50800501649 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED19A68197BA50700501649 /* UIKit.framework */; };
 		8ED19A91197BA50800501649 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ED19A8F197BA50800501649 /* InfoPlist.strings */; };
-		8ED19A93197BA50800501649 /* ITWordPuzzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19A92197BA50800501649 /* ITWordPuzzleTests.m */; };
+		8ED19AA0197BA6DB00501649 /* NSArray+ITAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19A9F197BA6DB00501649 /* NSArray+ITAlphabet.m */; };
+		8ED19AA3197BA82000501649 /* ITAlphabetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19AA2197BA82000501649 /* ITAlphabetTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,9 @@
 		8ED19A86197BA50800501649 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8ED19A8E197BA50800501649 /* ITWordPuzzleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITWordPuzzleTests-Info.plist"; sourceTree = "<group>"; };
 		8ED19A90197BA50800501649 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8ED19A92197BA50800501649 /* ITWordPuzzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWordPuzzleTests.m; sourceTree = "<group>"; };
+		8ED19A9E197BA6DB00501649 /* NSArray+ITAlphabet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ITAlphabet.h"; sourceTree = "<group>"; };
+		8ED19A9F197BA6DB00501649 /* NSArray+ITAlphabet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ITAlphabet.m"; sourceTree = "<group>"; };
+		8ED19AA2197BA82000501649 /* ITAlphabetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITAlphabetTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 		8ED19A6A197BA50700501649 /* ITWordPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				8ED19A9D197BA6AF00501649 /* ITCategories */,
 				8ED19A73197BA50700501649 /* ITAppDelegate.h */,
 				8ED19A74197BA50700501649 /* ITAppDelegate.m */,
 				8ED19A7C197BA50700501649 /* ITViewController.h */,
@@ -134,7 +138,7 @@
 		8ED19A8C197BA50800501649 /* ITWordPuzzleTests */ = {
 			isa = PBXGroup;
 			children = (
-				8ED19A92197BA50800501649 /* ITWordPuzzleTests.m */,
+				8ED19AA1197BA7F100501649 /* ITCategories */,
 				8ED19A8D197BA50800501649 /* Supporting Files */,
 			);
 			path = ITWordPuzzleTests;
@@ -147,6 +151,23 @@
 				8ED19A8F197BA50800501649 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ED19A9D197BA6AF00501649 /* ITCategories */ = {
+			isa = PBXGroup;
+			children = (
+				8ED19A9E197BA6DB00501649 /* NSArray+ITAlphabet.h */,
+				8ED19A9F197BA6DB00501649 /* NSArray+ITAlphabet.m */,
+			);
+			name = ITCategories;
+			sourceTree = "<group>";
+		};
+		8ED19AA1197BA7F100501649 /* ITCategories */ = {
+			isa = PBXGroup;
+			children = (
+				8ED19AA2197BA82000501649 /* ITAlphabetTests.m */,
+			);
+			name = ITCategories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED19AA0197BA6DB00501649 /* NSArray+ITAlphabet.m in Sources */,
 				8ED19A71197BA50700501649 /* main.m in Sources */,
 				8ED19A75197BA50700501649 /* ITAppDelegate.m in Sources */,
 				8ED19A7E197BA50700501649 /* ITViewController.m in Sources */,
@@ -256,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED19A93197BA50800501649 /* ITWordPuzzleTests.m in Sources */,
+				8ED19AA3197BA82000501649 /* ITAlphabetTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
