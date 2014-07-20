@@ -21,6 +21,12 @@
 		8ED19A91197BA50800501649 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ED19A8F197BA50800501649 /* InfoPlist.strings */; };
 		8ED19AA0197BA6DB00501649 /* NSArray+ITAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19A9F197BA6DB00501649 /* NSArray+ITAlphabet.m */; };
 		8ED19AA3197BA82000501649 /* ITAlphabetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19AA2197BA82000501649 /* ITAlphabetTests.m */; };
+		8ED19AAA197BC30C00501649 /* ITWordSupplementaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19AA9197BC30C00501649 /* ITWordSupplementaryTests.m */; };
+		8ED19AAD197BC54900501649 /* NSArray+ITRandomSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19AAC197BC54900501649 /* NSArray+ITRandomSelection.m */; };
+		8ED19AAF197BC5CE00501649 /* ITRandomSelectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19AAE197BC5CE00501649 /* ITRandomSelectionTests.m */; };
+		8ED19AB2197BD35C00501649 /* NSMutableString+ITWordSupplementary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19AB1197BD35C00501649 /* NSMutableString+ITWordSupplementary.m */; };
+		8ED19AB5197C21C500501649 /* NSMutableString+ITRandomLetterSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19AB4197C21C500501649 /* NSMutableString+ITRandomLetterSelection.m */; };
+		8ED19AB7197C29B400501649 /* ITRandomLetterSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED19AB6197C29B400501649 /* ITRandomLetterSelection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,15 @@
 		8ED19A9E197BA6DB00501649 /* NSArray+ITAlphabet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ITAlphabet.h"; sourceTree = "<group>"; };
 		8ED19A9F197BA6DB00501649 /* NSArray+ITAlphabet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ITAlphabet.m"; sourceTree = "<group>"; };
 		8ED19AA2197BA82000501649 /* ITAlphabetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITAlphabetTests.m; sourceTree = "<group>"; };
+		8ED19AA9197BC30C00501649 /* ITWordSupplementaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITWordSupplementaryTests.m; sourceTree = "<group>"; };
+		8ED19AAB197BC54900501649 /* NSArray+ITRandomSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ITRandomSelection.h"; sourceTree = "<group>"; };
+		8ED19AAC197BC54900501649 /* NSArray+ITRandomSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ITRandomSelection.m"; sourceTree = "<group>"; };
+		8ED19AAE197BC5CE00501649 /* ITRandomSelectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITRandomSelectionTests.m; sourceTree = "<group>"; };
+		8ED19AB0197BD35C00501649 /* NSMutableString+ITWordSupplementary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+ITWordSupplementary.h"; sourceTree = "<group>"; };
+		8ED19AB1197BD35C00501649 /* NSMutableString+ITWordSupplementary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+ITWordSupplementary.m"; sourceTree = "<group>"; };
+		8ED19AB3197C21C500501649 /* NSMutableString+ITRandomLetterSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+ITRandomLetterSelection.h"; sourceTree = "<group>"; };
+		8ED19AB4197C21C500501649 /* NSMutableString+ITRandomLetterSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+ITRandomLetterSelection.m"; sourceTree = "<group>"; };
+		8ED19AB6197C29B400501649 /* ITRandomLetterSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITRandomLetterSelection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +153,7 @@
 		8ED19A8C197BA50800501649 /* ITWordPuzzleTests */ = {
 			isa = PBXGroup;
 			children = (
+				8ED19AA8197BC2F100501649 /* New Group */,
 				8ED19AA1197BA7F100501649 /* ITCategories */,
 				8ED19A8D197BA50800501649 /* Supporting Files */,
 			);
@@ -156,8 +172,14 @@
 		8ED19A9D197BA6AF00501649 /* ITCategories */ = {
 			isa = PBXGroup;
 			children = (
+				8ED19AB0197BD35C00501649 /* NSMutableString+ITWordSupplementary.h */,
+				8ED19AB1197BD35C00501649 /* NSMutableString+ITWordSupplementary.m */,
+				8ED19AB3197C21C500501649 /* NSMutableString+ITRandomLetterSelection.h */,
+				8ED19AB4197C21C500501649 /* NSMutableString+ITRandomLetterSelection.m */,
 				8ED19A9E197BA6DB00501649 /* NSArray+ITAlphabet.h */,
 				8ED19A9F197BA6DB00501649 /* NSArray+ITAlphabet.m */,
+				8ED19AAB197BC54900501649 /* NSArray+ITRandomSelection.h */,
+				8ED19AAC197BC54900501649 /* NSArray+ITRandomSelection.m */,
 			);
 			name = ITCategories;
 			sourceTree = "<group>";
@@ -165,9 +187,19 @@
 		8ED19AA1197BA7F100501649 /* ITCategories */ = {
 			isa = PBXGroup;
 			children = (
+				8ED19AA9197BC30C00501649 /* ITWordSupplementaryTests.m */,
+				8ED19AB6197C29B400501649 /* ITRandomLetterSelection.m */,
 				8ED19AA2197BA82000501649 /* ITAlphabetTests.m */,
+				8ED19AAE197BC5CE00501649 /* ITRandomSelectionTests.m */,
 			);
 			name = ITCategories;
+			sourceTree = "<group>";
+		};
+		8ED19AA8197BC2F100501649 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +303,9 @@
 				8ED19A71197BA50700501649 /* main.m in Sources */,
 				8ED19A75197BA50700501649 /* ITAppDelegate.m in Sources */,
 				8ED19A7E197BA50700501649 /* ITViewController.m in Sources */,
+				8ED19AB2197BD35C00501649 /* NSMutableString+ITWordSupplementary.m in Sources */,
+				8ED19AAD197BC54900501649 /* NSArray+ITRandomSelection.m in Sources */,
+				8ED19AB5197C21C500501649 /* NSMutableString+ITRandomLetterSelection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED19AB7197C29B400501649 /* ITRandomLetterSelection.m in Sources */,
+				8ED19AAA197BC30C00501649 /* ITWordSupplementaryTests.m in Sources */,
 				8ED19AA3197BA82000501649 /* ITAlphabetTests.m in Sources */,
+				8ED19AAF197BC5CE00501649 /* ITRandomSelectionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

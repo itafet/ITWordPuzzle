@@ -75,10 +75,10 @@
 }
 
 - (void)testHungarianAlphabetEquality {
-    NSArray *hungarianAlphabet = @[@"a", @"á", @"b", @"c", @"cs", @"d", @"dz", @"dzs", @"e", @"é", @"f",
-                                   @"g", @"gy", @"h", @"i", @"í", @"j", @"k", @"l", @"m", @"n", @"ny",
-                                   @"o", @"ó", @"ö", @"ő", @"p", @"q", @"r", @"s", @"sz", @"t", @"ty",
-                                   @"u", @"ú", @"ü", @"ű", @"v", @"w", @"x", @"y", @"z", @"zs"];
+    NSArray *hungarianAlphabet = @[@"a", @"á", @"b", @"c", @"d", @"e", @"é", @"f", @"g",
+                                   @"h", @"i", @"í", @"j", @"k", @"l", @"m", @"n", @"o",
+                                   @"ó", @"ö", @"ő", @"p", @"q", @"r", @"s", @"t", @"u",
+                                   @"ú", @"ü", @"ű", @"v", @"w", @"x", @"y", @"z"];
     NSArray *alphabet = [NSArray alphabetWithLanguage:ITAlphabetLanguageHungarian];
     XCTAssertTrue([hungarianAlphabet isEqualToArray:alphabet], @"Alphabets are not equal %@ %@", hungarianAlphabet, alphabet);
 }
